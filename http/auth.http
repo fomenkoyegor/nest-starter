@@ -1,0 +1,7 @@
+curl -X POST -H "Content-Type: application/json" \
+    -d '{"name": "linuxize", "email": "re@re.re", "password":"rerere"}' \
+    localhost:3000/auth/signin
+
+curl -X POST -H "Content-Type: application/json" \
+      -d '{"name": "linuxize", "email": "re@re.re", "password":"rerere"}' \
+      localhost:3000/auth/signup
