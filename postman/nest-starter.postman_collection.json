@@ -1,0 +1,301 @@
+{
+	"id": "a3fcee79-ef43-5a78-370e-0434d56b3e45",
+	"name": "nest-starter",
+	"description": "",
+	"order": [
+		"416f9a91-b13b-317a-ed1f-73a85a942c44",
+		"8f3f98b8-a6b6-8811-1876-7b552d66fc04",
+		"e788f2d7-dc9c-91d5-7d91-29f702707ba7",
+		"fee0d2f6-c17f-456b-a4d7-254bca2b889d",
+		"8895fe54-12b4-0b36-4547-f36b773d6b8b",
+		"913b80d9-4fe4-16b8-995f-d08b763c0711",
+		"706c7ffb-f0ff-5ad5-972d-ac82ae61502b",
+		"955b604d-726d-3bb2-01d3-bdaf33bdf8c7",
+		"2af34fe3-4141-5e6d-f1ec-debe9a883534"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1649671962678,
+	"owner": "4066314",
+	"public": false,
+	"requests": [
+		{
+			"id": "2af34fe3-4141-5e6d-f1ec-debe9a883534",
+			"headers": "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjEsImVtYWlsIjoicmVAcmUucmUiLCJpYXQiOjE2NDk2NzQzMjMsImV4cCI6MTY0OTY3NTIyM30.dM485Yc9FfQeSUBxf5tx-B6D5g1MbmBLcFCJOmNPABs\nContent-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjEsImVtYWlsIjoicmVAcmUucmUiLCJpYXQiOjE2NDk2NzQzMjMsImV4cCI6MTY0OTY3NTIyM30.dM485Yc9FfQeSUBxf5tx-B6D5g1MbmBLcFCJOmNPABs",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:3000/user",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "PATCH",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1649674960475,
+			"name": "http://localhost:3000/user update",
+			"description": "",
+			"collectionId": "a3fcee79-ef43-5a78-370e-0434d56b3e45",
+			"responses": [],
+			"rawModeData": "{\n\t\"firsName\":\"Re\",\n\t\"lastName\":\"Radion\"\n}"
+		},
+		{
+			"id": "416f9a91-b13b-317a-ed1f-73a85a942c44",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:3000/auth/signin",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1649674983410,
+			"name": "http://localhost:3000/auth/signin",
+			"description": "",
+			"collectionId": "a3fcee79-ef43-5a78-370e-0434d56b3e45",
+			"responses": [],
+			"rawModeData": "{\n\t\"email\":\"re@re.re\",\n\t\"password\":\"rerere\"\n}"
+		},
+		{
+			"id": "706c7ffb-f0ff-5ad5-972d-ac82ae61502b",
+			"headers": "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjEsImVtYWlsIjoicmVAcmUucmUiLCJpYXQiOjE2NDk2NzQzMjMsImV4cCI6MTY0OTY3NTIyM30.dM485Yc9FfQeSUBxf5tx-B6D5g1MbmBLcFCJOmNPABs\nContent-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjEsImVtYWlsIjoicmVAcmUucmUiLCJpYXQiOjE2NDk2NzQzMjMsImV4cCI6MTY0OTY3NTIyM30.dM485Yc9FfQeSUBxf5tx-B6D5g1MbmBLcFCJOmNPABs",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:3000/bookmark/3",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "PATCH",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1649674966418,
+			"name": "http://localhost:3000/bookmark update",
+			"description": "create",
+			"collectionId": "a3fcee79-ef43-5a78-370e-0434d56b3e45",
+			"responses": [],
+			"rawModeData": "{\n\t\"title\":\"update\",\n\t\"description\":\"some text\",\n\t\"link\":\"hahahaha\"\n}"
+		},
+		{
+			"id": "8895fe54-12b4-0b36-4547-f36b773d6b8b",
+			"headers": "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjEsImVtYWlsIjoicmVAcmUucmUiLCJpYXQiOjE2NDk2NzMyMTYsImV4cCI6MTY0OTY3NDExNn0.c9WZIx7FifYE5BkM489o0SlHV6mWNxoBmoNnjZar4-M\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjEsImVtYWlsIjoicmVAcmUucmUiLCJpYXQiOjE2NDk2NzMyMTYsImV4cCI6MTY0OTY3NDExNn0.c9WZIx7FifYE5BkM489o0SlHV6mWNxoBmoNnjZar4-M",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:3000/bookmark/2",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "DELETE",
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1649674971809,
+			"name": "http://localhost:3000/bookmark/2 delete",
+			"description": "delete mark by id",
+			"collectionId": "a3fcee79-ef43-5a78-370e-0434d56b3e45",
+			"responses": []
+		},
+		{
+			"id": "8f3f98b8-a6b6-8811-1876-7b552d66fc04",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:3000/auth/signup",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1649674979871,
+			"name": "http://localhost:3000/auth/signup",
+			"description": "",
+			"collectionId": "a3fcee79-ef43-5a78-370e-0434d56b3e45",
+			"responses": [],
+			"rawModeData": "{\n\t\"email\":\"ze@ze.ze\",\n\t\"password\":\"zezeze\"\n}"
+		},
+		{
+			"id": "913b80d9-4fe4-16b8-995f-d08b763c0711",
+			"headers": "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjEsImVtYWlsIjoicmVAcmUucmUiLCJpYXQiOjE2NDk2NzMyMTYsImV4cCI6MTY0OTY3NDExNn0.c9WZIx7FifYE5BkM489o0SlHV6mWNxoBmoNnjZar4-M\nContent-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjEsImVtYWlsIjoicmVAcmUucmUiLCJpYXQiOjE2NDk2NzMyMTYsImV4cCI6MTY0OTY3NDExNn0.c9WZIx7FifYE5BkM489o0SlHV6mWNxoBmoNnjZar4-M",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:3000/bookmark",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1649674969213,
+			"name": "http://localhost:3000/bookmark create",
+			"description": "create",
+			"collectionId": "a3fcee79-ef43-5a78-370e-0434d56b3e45",
+			"responses": [],
+			"rawModeData": "{\n\t\"title\":\"third bookmark\",\n\t\"description\":\"some text\",\n\t\"link\":\"hahahaha\"\n}"
+		},
+		{
+			"id": "955b604d-726d-3bb2-01d3-bdaf33bdf8c7",
+			"headers": "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjEsImVtYWlsIjoicmVAcmUucmUiLCJpYXQiOjE2NDk2NzQzMjMsImV4cCI6MTY0OTY3NTIyM30.dM485Yc9FfQeSUBxf5tx-B6D5g1MbmBLcFCJOmNPABs\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjEsImVtYWlsIjoicmVAcmUucmUiLCJpYXQiOjE2NDk2NzQzMjMsImV4cCI6MTY0OTY3NTIyM30.dM485Yc9FfQeSUBxf5tx-B6D5g1MbmBLcFCJOmNPABs",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:3000/user/me",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1649674963493,
+			"name": "http://localhost:3000/user/me",
+			"description": "",
+			"collectionId": "a3fcee79-ef43-5a78-370e-0434d56b3e45",
+			"responses": []
+		},
+		{
+			"id": "e788f2d7-dc9c-91d5-7d91-29f702707ba7",
+			"headers": "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjEsImVtYWlsIjoicmVAcmUucmUiLCJpYXQiOjE2NDk2NzMyMTYsImV4cCI6MTY0OTY3NDExNn0.c9WZIx7FifYE5BkM489o0SlHV6mWNxoBmoNnjZar4-M\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjEsImVtYWlsIjoicmVAcmUucmUiLCJpYXQiOjE2NDk2NzMyMTYsImV4cCI6MTY0OTY3NDExNn0.c9WZIx7FifYE5BkM489o0SlHV6mWNxoBmoNnjZar4-M",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:3000/bookmark",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1649674977181,
+			"name": "http://localhost:3000/bookmark",
+			"description": "get bookmarks",
+			"collectionId": "a3fcee79-ef43-5a78-370e-0434d56b3e45",
+			"responses": []
+		},
+		{
+			"id": "fee0d2f6-c17f-456b-a4d7-254bca2b889d",
+			"headers": "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjEsImVtYWlsIjoicmVAcmUucmUiLCJpYXQiOjE2NDk2NzMyMTYsImV4cCI6MTY0OTY3NDExNn0.c9WZIx7FifYE5BkM489o0SlHV6mWNxoBmoNnjZar4-M\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjEsImVtYWlsIjoicmVAcmUucmUiLCJpYXQiOjE2NDk2NzMyMTYsImV4cCI6MTY0OTY3NDExNn0.c9WZIx7FifYE5BkM489o0SlHV6mWNxoBmoNnjZar4-M",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:3000/bookmark/1",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1649674974220,
+			"name": "http://localhost:3000/bookmark/1 getbyID",
+			"description": "get bookmarks",
+			"collectionId": "a3fcee79-ef43-5a78-370e-0434d56b3e45",
+			"responses": []
+		}
+	]
+}
